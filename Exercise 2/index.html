@@ -9,17 +9,17 @@
   </head>
   <body>
     <div class="Navbar">
-      <div class="Navbar__Link Navbar__Link-brand title">Start BootStrap</div>
-      <div class="Navbar__Link Navbar__Link-toggle">
-        <button class="iconButton">MENU<i class="fa fa-bars togle"></i></button>
+      <div class="Navbar-Link Navbar-Link-brand title">Start BootStrap</div>
+      <div class="Navbar-Link Navbar-Link-toggle">
+        <button class="icon-button">MENU<i class="fa fa-bars togle"></i></button>
       </div>
-      <nav class="Navbar__Items Navbar__Items--right">
-        <div class="Navbar__Link">PORTFOLIO</div>
-        <div class="Navbar__Link">ABOUT</div>
-        <div class="Navbar__Link">CONTACT</div>
+      <nav class="Navbar-Items Navbar-Items-right">
+        <div class="Navbar-Link">PORTFOLIO</div>
+        <div class="Navbar-Link">ABOUT</div>
+        <div class="Navbar-Link">CONTACT</div>
       </nav>
     </div>
-    <div><img src="images/startbootstrap.png" class="mainpic" /></div>
+    <div><img src="images/startbootstrap.png" class="main-pic" /></div>
     <div class="wrapper">
       <h1 style="color: #2c3e50; margin-top: 100px">PORTFOLIO</h1>
       <div style="display: flex">
@@ -27,30 +27,38 @@
         <span style="font-size: 50px; color: #2c3e50">&#9733;</span>
         <hr width="8%" color="#2b3e50" style="height: 2px; margin-right: 40%; margin-top: 40px" />
       </div>
-      <div class="outer-grid">
-        <div class="inner-grid">
-          <img src="images/house.png" />
-          <img src="images/cake.png" />
-        </div>
-        <div class="inner-grid">
-          <img src="images/hut.png" />
-          <img src="images/game.png" />
-        </div>
-        <div class="inner-grid">
-          <img src="images/locker.png" />
-          <img src="images/submarine.png" />
-        </div>
-      </div>
     </div>
-    <div class="about">
-      <h1 style="color: white; margin: unset">ABOUT</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-md-4 mb-3" >
+      <img class="fluid img-thumbnail" src="images/house.png" />
+    </div>
+    <div class="col-sm-6 col-md-4 mb-3">
+      <img class="fluid img-thumbnail" src="images/cake.png" />
+    </div>
+    <div class="col-sm-6 col-md-4 mb-3">
+      <img class="fluid img-thumbnail" src="images/hut.png" />
+    </div>
+     <div class="col-sm-6 col-md-4 mb-3">
+      <img class="fluid img-thumbnail" src="images/game.png" />
+    </div>
+    <div class="col-sm-6 col-md-4 mb-3">
+      <img class="fluid img-thumbnail" src="images/locker.png" />
+    </div>
+    <div class="col-sm-6 col-md-4 mb-3">
+      <img class="fluid img-thumbnail" src="images/submarine.png" />
+    </div>
+  </div>
+</div>
+<div class="about">
+   <h1 style="color: white; margin: unset">ABOUT</h1>
       <div style="display: flex; justify-content: center">
         <hr width="10%" color="white" style="height: 3px; margin-top: 19px;color: white;background-color: white;border: none;" />
         <span style="font-size: 50px; color: white; margin-top: -24px">&#9733;</span>
         <hr width="10%" color="white" style="height: 3px; margin-top: 19px;color: white;" />
       </div>
       <div class="about-row">
-        <div class="about-col1 col-md-6">
+        <div class="about-col1">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Eligendi totam numquam aliquam deleniti consequuntur eos
@@ -59,8 +67,7 @@
             voluptate!
           </p>
         </div>
-        <br>
-        <div class="about-col2 col-md-6">
+        <div class="about-col2">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing
             elit. Eligendi totam numquam aliquam deleniti consequuntur eos
@@ -68,8 +75,8 @@
             voluptates et, ipsa ipsam inventore voluptate!
           </p>
         </div>
-        <button class="btn2""><i class="fa fa-download icon2"></i>Free Download</button>
       </div>
+      <button class="btn2""><i class="fa fa-download icon2"></i>Free Download</button>
     </div>
     <div class="contact">
       <h1 style="color: #2c3e50; margin-bottom: unset">CONTACT ME</h1>
@@ -78,15 +85,15 @@
         <span style="font-size: 50px; color: #2c3e50">&#9733;</span>
         <hr width="8%" color="#2b3e50" style="height: 2px; margin-right: 40%; margin-top: 30px" />
       </div>
-      <div class="contactitem"><h2>Name</h2></div>
-      <div class="contactitem"><hr /></div>
-      <div class="contactitem"><h2>Email Address</h2></div>
-      <div class="contactitem"><hr /></div>
-      <div class="contactitem"><h2>Phone Number</h2></div>
-      <div class="contactitem"><hr /></div>
-      <div class="contactitem"><h2>Message</h2></div>
+      <div class="contact-item"><h2>Name</h2></div>
+      <div class="contact-item"><hr /></div>
+      <div class="contact-item"><h2>Email Address</h2></div>
+      <div class="contact-item"><hr /></div>
+      <div class="contact-item"><h2>Phone Number</h2></div>
+      <div class="contact-item"><hr /></div>
+      <div class="contact-item"><h2>Message</h2></div>
       <br /><br /><br /><br />
-      <div class="contactitem"><hr /></div>
+      <div class="contact-item"><hr /></div>
       <button type="submit" class="button">Send</button>
     </div>
 
@@ -103,11 +110,11 @@
           <div class="footer-col col-md-4">
             <h3><b>AROUND THE WEB</b></h3>
             <ul>
-              <a href="#" class="fa fa-facebook col-md-1 socialmediaicons"></a>
-              <a href="#" class="fa fa-google col-md-1 socialmediaicons"></a>
-              <a href="#" class="fa fa-twitter col-md-1 socialmediaicons"></a>
-              <a href="#" class="fa fa-linkedin col-md-1 socialmediaicons"></a>
-              <a href="#" class="fa fa-codepen col-md-1 socialmediaicons"></a>
+              <a href="#" class="fa fa-facebook col-md-1 social-media-icons"></a>
+              <a href="#" class="fa fa-google col-md-1 social-media-icons"></a>
+              <a href="#" class="fa fa-twitter col-md-1 social-media-icons"></a>
+              <a href="#" class="fa fa-linkedin col-md-1 social-media-icons"></a>
+              <a href="#" class="fa fa-codepen col-md-1 social-media-icons"></a>
             </ul>
           </div>
           <div class="footer-col col-md-4">
@@ -132,7 +139,7 @@
       }
 
       document
-        .querySelector(".Navbar__Link-toggle")
+        .querySelector(".Navbar-Link-toggle")
         .addEventListener("click", classToggle);
     </script>
   </body>
